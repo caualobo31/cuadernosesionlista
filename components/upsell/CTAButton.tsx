@@ -14,7 +14,7 @@ export default function CTAButton({
   fullWidth = false,
 }: CTAButtonProps) {
   const base =
-    "inline-flex items-center justify-center gap-2 px-8 py-4 md:py-5 text-base md:text-lg font-bold tracking-wide rounded-xl transition-all duration-200 hover:scale-[1.02] active:scale-[0.99] focus:outline-none focus:ring-2 focus:ring-offset-2";
+    "inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-bold tracking-wide rounded-xl transition-all duration-200 hover:scale-[1.02] active:scale-[0.99] focus:outline-none focus:ring-2 focus:ring-offset-2";
 
   const variants = {
     coral:
@@ -31,8 +31,8 @@ export default function CTAButton({
       {...(!href.startsWith("#") && { target: "_blank", rel: "noopener noreferrer" })}
       className={`${base} ${variants[variant]} ${width}`}
     >
-      {text}
-      <ArrowRight size={20} aria-hidden="true" />
+      <span className="text-center">{text}</span>
+      <ArrowRight size={20} aria-hidden="true" className="shrink-0" />
     </a>
   );
 }

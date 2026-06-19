@@ -11,10 +11,10 @@ export default function GuaranteeBlock() {
 
         {/* Texto */}
         <div className="flex-1">
-          <h3 className="text-2xl md:text-3xl font-bold text-ambar-800 mb-3">
+          <h3 className="text-lg md:text-xl font-bold text-ambar-800 mb-3">
             Compra sin riesgo
           </h3>
-          <p className="text-base text-ambar-800/85 leading-relaxed">
+          <p className="text-sm text-ambar-800/85 leading-relaxed">
             Tienes 30 días para usar el cuaderno, aplicar las sesiones y ver en la práctica lo que hace por tu trabajo clínico. Si por cualquier motivo no quedas satisfecha, solo pides el reembolso. Sin burocracia, sin preguntas.
           </p>
           <p className="mt-3 italic text-sm text-ambar-800">

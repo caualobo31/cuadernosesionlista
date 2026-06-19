@@ -8,7 +8,7 @@ interface ClosingProps {
 export default function Closing({ checkoutUrl, thankYouUrl }: ClosingProps) {
   return (
     <section className="mb-12 md:mb-16 text-center">
-      <h2 className="text-3xl md:text-4xl font-bold text-verde-900 leading-tight mb-6">
+      <h2 className="text-xl md:text-2xl font-bold text-verde-900 leading-tight mb-6">
         Tu próxima sesión
         <br />
         puede empezar diferente
@@ -16,7 +16,7 @@ export default function Closing({ checkoutUrl, thankYouUrl }: ClosingProps) {
 
       <CTAButton
         href={checkoutUrl}
-        text="QUIERO AGREGAR EL CUADERNO POR $19"
+        text="QUIERO AGREGAR EL CUADERNO"
         fullWidth
       />
 

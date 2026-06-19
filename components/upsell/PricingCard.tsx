@@ -32,10 +32,10 @@ export default function PricingCard({ checkoutUrl }: PricingCardProps) {
         </p>
 
         {/* Nome do produto */}
-        <h3 className="text-2xl md:text-3xl font-bold text-verde-900 mb-1">
+        <h3 className="text-lg md:text-xl font-bold text-verde-900 mb-1">
           Cuaderno de 80 Sesiones Listas
         </h3>
-        <p className="text-base text-texto-muted italic mb-6">
+        <p className="text-sm text-texto-muted italic mb-6">
           Una sesión modelo para cada recurso del kit
         </p>
 
@@ -53,10 +53,10 @@ export default function PricingCard({ checkoutUrl }: PricingCardProps) {
 
         {/* Bloco de preço */}
         <div className="mb-6">
-          <span className="block text-lg text-texto-muted line-through mb-1">
+          <span className="block text-sm text-texto-muted line-through mb-1">
             De $47 USD
           </span>
-          <span className="block text-6xl md:text-7xl font-bold text-verde-900 leading-none">
+          <span className="block text-5xl md:text-6xl font-bold text-verde-900 leading-none">
             $19 USD
           </span>
           <span className="block text-sm text-texto-muted mt-2">
@@ -76,7 +76,7 @@ export default function PricingCard({ checkoutUrl }: PricingCardProps) {
                 className="text-verde-700 shrink-0 mt-1"
                 aria-hidden="true"
               />
-              <p className="text-base text-texto-dark">{f}</p>
+              <p className="text-sm text-texto-dark">{f}</p>
             </li>
           ))}
         </ul>
@@ -84,7 +84,7 @@ export default function PricingCard({ checkoutUrl }: PricingCardProps) {
         {/* CTA */}
         <CTAButton
           href={checkoutUrl}
-          text="QUIERO AGREGAR AHORA POR $19"
+          text="QUIERO AGREGAR AHORA"
           fullWidth
         />
 

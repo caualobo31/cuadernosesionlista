@@ -27,10 +27,10 @@ export default function FAQ() {
 
   return (
     <section className="mb-12 md:mb-16">
-      <h2 className="text-3xl md:text-4xl font-bold text-verde-900 text-center mb-3">
+      <h2 className="text-xl md:text-2xl font-bold text-verde-900 text-center mb-3">
         ¿Aún tienes alguna duda?
       </h2>
-      <p className="text-lg text-texto-muted text-center mb-8">
+      <p className="text-sm text-texto-muted text-center mb-8">
         Respondemos las preguntas más comunes aquí.
       </p>
 
@@ -47,7 +47,7 @@ export default function FAQ() {
                 className="w-full flex items-center justify-between p-5 text-left"
                 aria-expanded={isOpen}
               >
-                <span className="text-base md:text-lg font-semibold text-verde-900 pr-4">
+                <span className="text-sm md:text-base font-semibold text-verde-900 pr-4">
                   {q}
                 </span>
                 {isOpen ? (
@@ -61,7 +61,7 @@ export default function FAQ() {
                   isOpen ? "max-h-[400px]" : "max-h-0"
                 }`}
               >
-                <p className="px-5 pb-5 text-texto-body text-base leading-relaxed">
+                <p className="px-5 pb-5 text-texto-body text-sm leading-relaxed">
                   {a}
                 </p>
               </div>

@@ -30,10 +30,10 @@ const sessionParts = [
 export default function WhatYouGet() {
   return (
     <section className="mb-12 md:mb-16">
-      <h2 className="text-3xl md:text-4xl font-bold text-verde-900 text-center mb-3">
+      <h2 className="text-xl md:text-2xl font-bold text-verde-900 text-center mb-3">
         Mira lo que recibes en cada sesión
       </h2>
-      <p className="text-lg text-texto-muted text-center max-w-xl mx-auto mb-8">
+      <p className="text-sm text-texto-muted text-center max-w-xl mx-auto mb-8">
         Cada una de las 80 sesiones del cuaderno sigue la misma estructura clínica. Lista para aplicar desde la primera lectura.
       </p>
 

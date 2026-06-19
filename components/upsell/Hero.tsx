@@ -42,22 +42,22 @@ export default function Hero({ checkoutUrl }: HeroProps) {
       </div>
 
       {/* Pergunta provocativa */}
-      <p className="text-lg md:text-xl text-texto-muted font-medium text-center mb-4">
+      <p className="text-base text-texto-muted font-medium text-center mb-4">
         ¿Y si entraras a la próxima sesión sabiendo exactamente cómo aplicar cada recurso?
       </p>
 
       {/* H1 */}
       <h1 className="text-center max-w-2xl mx-auto mb-5">
-        <span className="block text-5xl md:text-6xl font-semibold leading-[1.1] tracking-tight text-verde-900">
+        <span className="block text-3xl md:text-4xl font-semibold leading-[1.1] tracking-tight text-verde-900">
           Una sesión lista
         </span>
-        <span className="block text-2xl md:text-3xl font-medium leading-snug text-verde-700 mt-3">
+        <span className="block text-lg md:text-xl font-medium leading-snug text-verde-700 mt-2">
           para cada uno de los <span className="text-coral-600 font-semibold">80 recursos</span> de tu kit
         </span>
       </h1>
 
       {/* Subtitle */}
-      <p className="text-lg md:text-xl text-texto-body leading-relaxed text-center mb-8">
+      <p className="text-sm md:text-base text-texto-body leading-relaxed text-center mb-8">
         Una sesión modelo paso a paso. Objetivo, secuencia, preguntas guía, cierre y adaptaciones por edad. Para cada uno de los 80 recursos del Kit Sesión Lista.
       </p>
 
@@ -80,7 +80,7 @@ export default function Hero({ checkoutUrl }: HeroProps) {
             <div className="w-8 h-8 rounded-full bg-verde-100 flex items-center justify-center shrink-0">
               <Icon size={18} className="text-verde-700" aria-hidden="true" />
             </div>
-            <p className="text-base font-medium text-texto-dark">{text}</p>
+            <p className="text-sm font-medium text-texto-dark">{text}</p>
           </div>
         ))}
       </div>
@@ -88,7 +88,7 @@ export default function Hero({ checkoutUrl }: HeroProps) {
       {/* CTA */}
       <CTAButton
         href="#oferta"
-        text="QUIERO AGREGAR LAS 80 SESIONES POR $19"
+        text="QUIERO AGREGAR LAS 80 SESIONES"
         fullWidth
       />
 
